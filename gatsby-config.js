@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Yihua's Blog`,
+    title: `Lavneesh's Blog`,
     description: `A blog for my thoughts!`,
-    author: `Yihua Zhang`,
+    author: `Lavneesh Jaggi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,6 +23,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
+    'gatsby-plugin-styled-components',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
